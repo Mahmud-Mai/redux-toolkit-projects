@@ -1,11 +1,12 @@
-import Counter from "./features/counter/Counter";
+import React from 'react'
+import Counter from './features/counter/Counter'
 
-function App() {
+const App = () => {
   return (
-    <main className="App">
+    <main className='App'>
       <Counter />
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
